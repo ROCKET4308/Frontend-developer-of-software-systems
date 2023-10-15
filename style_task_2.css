@@ -1,0 +1,118 @@
+/* Стилізація заголовка сторінки */
+header h1 {
+    text-align: center;
+    color: #0066cc;
+    font-size: 2em;
+}
+
+/* Стилізація логотипів */
+#logo-img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стилізація навігації */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Стилізація основного контенту */
+main {
+    padding: 20px;
+}
+
+/* Стилізація заголовків статей */
+article h2 {
+    color: #0066cc;
+}
+
+/* Стилізація тексту статей */
+article p {
+    line-height: 1.5;
+}
+
+/* Стилізація списків */
+ol {
+    list-style: upper-roman;
+}
+
+/* Стилізація таблиці */
+#my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#my-table caption {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+#my-table th, #my-table td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+#my-table th {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+#my-table tfoot {
+    background-color: #f0f0f0;
+}
+
+/* Стилізація форми зворотнього зв'язку */
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+form h2 {
+    color: #0066cc;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Стилізація контактних даних */
+footer #contacts {
+    color: #0066cc;
+}
+
+footer aside p {
+    margin: 5px 0;
+}
+
+/* Додаткові стилі для анімації, 2D трансформації, тощо, можна додати за потреби */
+

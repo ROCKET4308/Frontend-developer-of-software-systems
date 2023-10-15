@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_task_2.css">
+    <title>Музична рекомендаційна система</title>
+</head>
+<body>
+    <header>
+        <h1>Музична рекомендаційна система</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1024px-Spotify_logo_without_text.svg.png" 
+        id="logo-img" alt="Spotify logo" width="300" height="300">
+        <img src="https://nftnow.com/wp-content/uploads/2023/07/Sound-Logo.jpg" 
+        id="logo-img" alt="Sound.xyz logo" width="500" height="300">
+        <nav>
+            <ul>
+                <li><a href="#music-article">Стаття</a></li>
+                <li><a href="#my-table">Таблиця</a></li>
+                <li><a href="#contact-form">Форма зворотнього зв’язку</a></li>
+                <li><a href="#contacts">Контактні дані</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="music-article">
+            <h2>Вступ до музичних рекомендаційних систем</h2>
+            <p><i>Музика завжди була невід'ємною частиною нашого життя</i>, із розвитком технологій вона стала ще доступнішою. Однак із зростанням обсягу музичного контенту виникає проблема вибору правильної музики для кожного користувача. Тут на допомогу приходять музичні рекомендаційні системи, які аналізують ваші музичні уподобання і пропонують вам нові композиції, які можуть вас зацікавити.</p>
+
+            <h2>Як працюють музичні рекомендаційні системи</h2>
+            <p>Музичні рекомендаційні системи базуються на алгоритмах машинного навчання і обробці даних. <em>Вони аналізують вашу історію прослуховування</em>, ваши оцінки пісень, а також додаткову інформацію, таку як жанри, виконавці та текст пісень. Після цього вони використовують ці дані для прогнозування, які пісні вам сподобаються, і рекомендують вам новий музичний контент, який відповідає вашим смакам.</p>
+
+            <h2>Переваги музичних рекомендаційних систем</h2>
+            <ol type="I">
+                <li>Заощадження часу</li>
+                    <ul>
+                        <li>Довготривале</li>
+                        <li>Короткотривале</li>
+                    </ul>
+                <li>Розширення музичного світу</li>
+                <li>Персоналізація</li>
+                <li>Відкриття нового</li>
+            </ol>
+            <p>Музичні рекомендаційні системи допомагають зробити процес пошуку нової музики більш зручним та приємним. Вони допомагають відкривати нових виконавців і жанри, які ви, можливо, не знайшли б самі. Крім того, вони підвищують задоволення від прослуховування музики, оскільки рекомендовані композиції часто точно відповідають вашим вподобанням.
+            <i>Завдяки музичним рекомендаційним системам, ми можемо насолоджуватися музикою ще більше</i> та легше відкривати для себе нові артисти і творчість.</p>
+            
+        </article>
+
+        <h2>Таблиця</h2>
+        <table id="my-table">
+            <caption>Найпопулярніші треки за весь час</caption>
+            <thead>
+                <tr>
+                    <th>Місце</th>
+                    <th>Пісня</th>
+                    <th>Рік</th>
+                    <th>Виконавець</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>«Like a Rolling Stone»</td>
+                    <td>1965</td>
+                    <td>Боб Ділан</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>«(I Can't Get No) Satisfaction»</td>
+                    <td>1965</td>
+                    <td>The Rolling Stones</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>«Imagine»</td>
+                    <td>1971</td>
+                    <td>Джон Леннон</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>«What's Going On»</td>
+                    <td>1971</td>
+                    <td>Марвін Гей</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>«Respect»</td>
+                    <td>1967</td>
+                    <td>Арета Франклін</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>«Good Vibrations»</td>
+                    <td>1966</td>
+                    <td>The Beach Boys</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Результати на момент 2023 року</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <form id="contact-form">
+            <h2>Форма зворотнього зв’язку</h2>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+                
+            <p>
+                <label for="age">Вік:</label>
+                <input type="number" id="age" name="age" required>
+            </p>
+                
+            <p>
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="4" required></textarea> 
+            </p>
+            
+
+            <p>
+                <label>Оцінка якості прочитаного:</label>
+                <input type="radio" name="rating" value="сподобався">Сподобався
+                <input type="radio" name="rating" value="потребує доопрацювання">Потребує доопрацювання
+                <input type="radio" name="rating" value="неповний">Неповний
+            </p>
+                
+            
+            <p>
+                <label for="agree">Згода на обробку інформації:</label>
+                <input type="checkbox" id="agree" name="agree" required>
+            </p>
+                
+            <p>
+                <button type="submit">Відправити</button>
+            </p>
+        </form>
+
+        <h2 id="contacts">Контактні дані:</h2>
+        <aside>
+            <p><a href="https://www.linkedin.com/in/misha-khaplanov/">Linked-in</a></p>
+            <p><a href="https://github.com/ROCKET4308">Git-hub</a></p>
+            <p>Email: mishakhaplanov@knu.ua</p>
+        </aside>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #side-bar {
+    background-color: rgb(56, 56, 56); /* Сірий фон сайдбару */
+    width: 200px;
+    height: 930px; /* Тягнеться до низу */
+    flex: 2;
+    padding: 20px;
+    margin-right: 3px;
+    border-radius: 5px; /* Закруглені кути кнопок */
+  }
+
+  #side-bar button {
+    background-color: green; /* Зелений колір кнопок */
+    color: white; /* Білий колір тексту на кнопках */
+    border: none; /* Без рамки */
+    border-radius: 20px; /* Закруглені кути кнопок */
+    width: 100%; /* Розтягнуті на всю ширину бару */
+    padding: 10px; /* Внутрішні відступи для кнопок */
+    margin-bottom: 5px; /* Відступ між кнопками */
+    cursor: pointer; /* Змінює вигляд курсору при наведенні на кнопки */
+  }
+
+  main {
+    color: white;
+    background-color: rgb(56, 56, 56); /* Сірий фон сайдбару */
+    height: 930px;/* Тягнеться до низу */
+    flex: 2;
+    padding: 20px;
+    border-radius: 5px; /* Закруглені кути кнопок */
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+
+  #search-input {
+    background-color: #9c9c9c; /* Сірий фон поля пошуку */
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    padding: 5px;
+
+  }
+  
+  #sign-in-button{
+    background-color: green; /* Зелений колір кнопок */
+    color: white; /* Білий колір тексту на кнопках */
+    border: none; /* Без рамки */
+    border-radius: 20px; /* Закруглені кути кнопок */
+    padding: 10px; /* Внутрішні відступи для кнопок */
+    margin-left: 20px;
+    cursor: pointer; /* Змінює вигляд курсору при наведенні на кнопки */
+    width: 200px;
+  }
+  
+  .current-track img{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .current-track {
+    position: relative;
+    text-align: center;
+  }
+
+  .current-track h1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  #other-tracks h2{
+    width: 100%;
+  }
+  
+  #other-tracks ul {
+    columns: 2;
+    list-style: none;
+  }
+  
+  #other-tracks li {
+    width: 50%; /* Розділення на дві колонки */
+    padding: 10px;
+  }
+
+  #other-tracks a{
+    color: white;
+    text-decoration: none;
+  }
+
+  
