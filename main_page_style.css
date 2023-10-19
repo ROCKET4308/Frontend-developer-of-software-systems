@@ -6,33 +6,33 @@ body {
   }
   
   #side-bar {
-    background-color: rgb(56, 56, 56); /* Сірий фон сайдбару */
+    background-color: rgb(24, 24, 24);
     width: 200px;
-    height: 930px; /* Тягнеться до низу */
+    height: 930px; 
     flex: 2;
     padding: 20px;
     margin-right: 3px;
-    border-radius: 5px; /* Закруглені кути кнопок */
+    border-radius: 5px; 
   }
 
   #side-bar button {
-    background-color: green; /* Зелений колір кнопок */
-    color: white; /* Білий колір тексту на кнопках */
-    border: none; /* Без рамки */
-    border-radius: 20px; /* Закруглені кути кнопок */
-    width: 100%; /* Розтягнуті на всю ширину бару */
-    padding: 10px; /* Внутрішні відступи для кнопок */
-    margin-bottom: 5px; /* Відступ між кнопками */
-    cursor: pointer; /* Змінює вигляд курсору при наведенні на кнопки */
+    background-color: green; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    cursor: pointer;
   }
 
   main {
     color: white;
-    background-color: rgb(56, 56, 56); /* Сірий фон сайдбару */
-    height: 930px;/* Тягнеться до низу */
+    background-color: rgb(24, 24, 24);
+    height: 930px;
     flex: 2;
     padding: 20px;
-    border-radius: 5px; /* Закруглені кути кнопок */
+    border-radius: 5px;
   }
   
   ::placeholder {
@@ -40,7 +40,7 @@ body {
   }
 
   #search-input {
-    background-color: #9c9c9c; /* Сірий фон поля пошуку */
+    background-color: #9c9c9c; 
     border: none;
     border-radius: 20px;
     width: 85%;
@@ -49,13 +49,13 @@ body {
   }
   
   #sign-in-button{
-    background-color: green; /* Зелений колір кнопок */
-    color: white; /* Білий колір тексту на кнопках */
-    border: none; /* Без рамки */
-    border-radius: 20px; /* Закруглені кути кнопок */
-    padding: 10px; /* Внутрішні відступи для кнопок */
+    background-color: green;
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px; 
     margin-left: 20px;
-    cursor: pointer; /* Змінює вигляд курсору при наведенні на кнопки */
+    cursor: pointer; 
     width: 200px;
   }
   
@@ -90,7 +90,7 @@ body {
   }
   
   #other-tracks li {
-    width: 50%; /* Розділення на дві колонки */
+    width: 50%; 
     padding: 10px;
   }
 

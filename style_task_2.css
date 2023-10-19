@@ -1,17 +1,15 @@
-/* Стилізація заголовка сторінки */
+
 header h1 {
     text-align: center;
     color: #0066cc;
     font-size: 2em;
 }
 
-/* Стилізація логотипів */
 #logo-img {
     display: block;
     margin: 0 auto;
 }
 
-/* Стилізація навігації */
 nav ul {
     list-style: none;
     padding: 0;
@@ -23,27 +21,22 @@ nav li {
     margin-right: 20px;
 }
 
-/* Стилізація основного контенту */
 main {
     padding: 20px;
 }
 
-/* Стилізація заголовків статей */
 article h2 {
     color: #0066cc;
 }
 
-/* Стилізація тексту статей */
 article p {
     line-height: 1.5;
 }
 
-/* Стилізація списків */
 ol {
     list-style: upper-roman;
 }
 
-/* Стилізація таблиці */
 #my-table {
     width: 100%;
     border-collapse: collapse;
@@ -70,7 +63,6 @@ ol {
     background-color: #f0f0f0;
 }
 
-/* Стилізація форми зворотнього зв'язку */
 form {
     margin: 20px;
     padding: 20px;
@@ -105,7 +97,6 @@ form button {
     cursor: pointer;
 }
 
-/* Стилізація контактних даних */
 footer #contacts {
     color: #0066cc;
 }
@@ -114,5 +105,5 @@ footer aside p {
     margin: 5px 0;
 }
 
-/* Додаткові стилі для анімації, 2D трансформації, тощо, можна додати за потреби */
+
 

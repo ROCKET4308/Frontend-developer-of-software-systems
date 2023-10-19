@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Музичний плеєр</title>
+    <link rel="stylesheet" href="catalog_style.css">
+    <title>Catalog</title>
 </head>
 <body>
     <header>
@@ -10,47 +11,49 @@
             <p><button type="submit">Home</button></p>
             <p><button type="submit">Catalog</button></p>
         </section>
-        <input type="text" id="search-input" placeholder="Search">
-        <button type="submit">Sign in</button>
     </header>
     
     <main>
-        <section id="sounds-by-genre">
-            <h2>Sounds by genre</h2>
-            <p>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-            </p>
-            <p>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-            </p>
-            <p>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-            </p>
-        </section>
-        <section id="explore-all">
-            <h2>Explore all</h2>
-            <p>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-                <button type="submit"><a href="genre.com">Genere</a></button>
-            </p>
-        </section>
+        <input type="text" id="search-input" placeholder="Search">
+        <button id ="sign-in-button"type="submit">Sign in</button>
+        <div id = "content-section">
+            <div id="sounds-by-genre">
+                <h2>Sounds by genre</h2>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-1">Hip-hop</button>
+                    <button type="submit" id="sounds-by-genre-button-2">Electronic</button>
+                    <button type="submit" id="sounds-by-genre-button-3">Pop</button>
+                    <button type="submit" id="sounds-by-genre-button-4">Soul</button>
+                    <button type="submit" id="sounds-by-genre-button-5">Indied</button>
+                    <button type="submit" id="sounds-by-genre-button-6">Dance</button>
+                </p>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-8">Rap</button>
+                    <button type="submit" id="sounds-by-genre-button-9">R and B</button>
+                    <button type="submit" id="sounds-by-genre-button-10">EDM</button>
+                    <button type="submit" id="sounds-by-genre-button-11">Rock</button>
+                    <button type="submit" id="sounds-by-genre-button-12">Alternative</button>
+                    <button type="submit" id="sounds-by-genre-button-13">House</button>
+                </p>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-15">Country</button>
+                    <button type="submit" id="sounds-by-genre-button-16">Trap</button>
+                    <button type="submit" id="sounds-by-genre-button-17">Latin</button>
+                    <button type="submit" id="sounds-by-genre-button-18">World</button>
+                    <button type="submit" id="sounds-by-genre-button-19">Drum</button>
+                    <button type="submit" id="sounds-by-genre-button-20">Base</button>
+                </p>
+            </div>
+            <div id="explore-all">
+                <h2>Explore all</h2>
+                <p>
+                    <button type="submit" id="explore-all-button-1">Sounds</button>
+                    <button type="submit" id="explore-all-button-2">Playlists</button>
+                    <button type="submit" id="explore-all-button-3">Artists</button>
+                    <button type="submit" id="explore-all-button-4">Collectors</button>
+                </p>
+            </div>
+        </div>
     </main>
     
     <footer>

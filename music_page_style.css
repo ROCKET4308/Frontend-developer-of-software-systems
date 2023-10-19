@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#side-bar {
+    background-color: rgb(24, 24, 24);
+    width: 200px;
+    height: 930px;
+    flex: 2;
+    padding: 20px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+#side-bar button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+main {
+    color: white;
+    background-color: rgb(24, 24, 24);
+    height: 930px;
+    flex: 2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#search-input {
+    background-color: #9c9c9c;
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    padding: 5px;
+}
+
+#sign-in-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 200px;
+}
