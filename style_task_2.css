@@ -1,17 +1,24 @@
+body {
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
 
-header h1 {
+h1:first-child {
+    text-shadow: 10px 5px 5px rgb(238,174,202);
+    box-shadow: #000;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #0066cc;
     font-size: 2em;
 }
 
-#logo-img {
+header img{
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
     text-align: center;
 }
@@ -21,11 +28,17 @@ nav li {
     margin-right: 20px;
 }
 
-main {
-    padding: 20px;
+:link{
+    font-weight: bold;
+    text-decoration: none;
 }
 
-article h2 {
+a::before {
+    content: '🔗';
+}
+
+h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #0066cc;
 }
 
@@ -33,19 +46,28 @@ article p {
     line-height: 1.5;
 }
 
+p ~ ol {
+    color: #0066cc;
+}
+
+li + ul{
+    color: purple;
+}
+
 ol {
     list-style: upper-roman;
 }
 
 #my-table {
+    transform: rotate(2deg);
     width: 100%;
     border-collapse: collapse;
+    box-shadow: 10px 5px 5px rgb(238,174,202);
 }
 
 #my-table caption {
     text-align: center;
     font-weight: bold;
-    background-color: #f0f0f0;
     padding: 10px;
 }
 
@@ -59,19 +81,6 @@ ol {
     color: #fff;
 }
 
-#my-table tfoot {
-    background-color: #f0f0f0;
-}
-
-form {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-form h2 {
-    color: #0066cc;
-}
 
 form label {
     display: block;
@@ -80,13 +89,14 @@ form label {
 }
 
 form input, form textarea {
-    width: 100%;
+    width: 98%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 5px;
 }
 
 form input[type="radio"] {
-    margin-right: 10px;
+    width: 100%;
+    margin-right: 5px;
 }
 
 form button {
