@@ -1,5 +1,4 @@
 body {
-    float: left;
     padding: 20px;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -89,8 +88,13 @@ form label {
     font-weight: bold;
 }
 
+form{
+    float: left;
+    width: 50%;
+}
+
 form input, form textarea {
-    width: 98%;
+    width: 80%;
     padding: 10px;
     margin: 5px;
 }
@@ -108,13 +112,9 @@ form button {
     cursor: pointer;
 }
 
-footer #contacts {
-    color: #0066cc;
-}
 
-footer aside p {
-    margin: 5px 0;
-}
+
+
 
 
 
