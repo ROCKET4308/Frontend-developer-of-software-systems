@@ -75,88 +75,87 @@ main {
 }
 
 #explore-all button {
-    width: 150px;
+    width: 175px;
     height: 150px;
     margin-left: 50px;
-    border-radius: 60px;
+    border-radius: 40px;
     padding-left: 20px;
     padding-top: 40px;
 }
 
 #sounds-by-genre-button-1{
-    background-color: rgb(119, 121, 145);
+    background: linear-gradient(to right, rgb(119, 121, 145), rgb(41, 212, 255));
 }
 
 #sounds-by-genre-button-2{
-    background-color: rgb(41, 212, 255);
+    background: linear-gradient(to right, rgb(41, 212, 255), rgb(158, 11, 151));
 }
 
 #sounds-by-genre-button-3{
-    background-color: rgb(158, 11, 151);
+    background: linear-gradient(to right, rgb(158, 11, 151), rgb(0, 10, 121));
 }
 
 #sounds-by-genre-button-4{
-    background-color: rgb(0, 10, 121);
+    background: linear-gradient(to right, rgb(0, 10, 121), rgb(117, 90, 0));
 }
 
 #sounds-by-genre-button-5{
-    background-color: rgb(117, 90, 0);
+    background: linear-gradient(to right, rgb(117, 90, 0), rgb(79, 13, 122));
 }
 
 #sounds-by-genre-button-6{
-    background-color: rgb(79, 13, 122);
+    background: linear-gradient(to right, rgb(79, 13, 122), rgb(121, 213, 255));
 }
 
-
 #sounds-by-genre-button-8{
-    background-color: rgb(121, 213, 255);
+    background: linear-gradient(to right, rgb(121, 213, 255), rgb(235, 144, 253));
 }
 
 #sounds-by-genre-button-9{
-    background-color: rgb(235, 144, 253);
+    background: linear-gradient(to right, rgb(235, 144, 253), rgb(141, 6, 146));
 }
 
 #sounds-by-genre-button-10{
-    background-color: rgb(141, 6, 146);
+    background: linear-gradient(to right, rgb(141, 6, 146), rgb(158, 158, 158));
 }
 
 #sounds-by-genre-button-11{
-    background-color: rgb(158, 158, 158);
+    background: linear-gradient(to right, rgb(158, 158, 158), rgb(255, 0, 234));
 }
 
 #sounds-by-genre-button-12{
-    background-color: rgb(255, 0, 234);
+    background: linear-gradient(to right, rgb(255, 0, 234), rgb(58, 58, 58));
 }
 
 #sounds-by-genre-button-13{
-    background-color: rgb(58, 58, 58);
+    background: linear-gradient(to right, rgb(58, 58, 58), rgb(255, 166, 0));
 }
 
-
-
 #sounds-by-genre-button-15{
-    background-color: rgb(255, 166, 0);
+    background: linear-gradient(to right, rgb(255, 166, 0), rgb(28, 75, 87));
 }
 
 #sounds-by-genre-button-16{
-    background-color: rgb(28, 75, 87);
+    background: linear-gradient(to right, rgb(28, 75, 87), rgb(73, 73, 73));
 }
 
 #sounds-by-genre-button-17{
-    background-color: rgb(73, 73, 73);
+    background: linear-gradient(to right, rgb(73, 73, 73), rgb(170, 74, 74));
 }
 
 #sounds-by-genre-button-18{
-    background-color: rgb(170, 74, 74);
+    background: linear-gradient(to right, rgb(170, 74, 74), rgb(121, 109, 0));
 }
 
 #sounds-by-genre-button-19{
-    background-color: rgb(121, 109, 0);
+    background: linear-gradient(to right, rgb(121, 109, 0), rgb(0, 100, 167));
 }
 
 #sounds-by-genre-button-20{
-    background-color: rgb(0, 100, 167);
+    background: linear-gradient(to right, rgb(0, 100, 167), rgb(174, 0, 255));
 }
+
+
 
 
 #explore-all-button-1{
