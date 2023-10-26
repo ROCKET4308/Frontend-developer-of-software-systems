@@ -28,6 +28,14 @@ nav li {
     margin-right: 20px;
 }
 
+.search-button{
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 :link{
     font-weight: bold;
     text-decoration: none;
