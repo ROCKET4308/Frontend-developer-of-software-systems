@@ -13,6 +13,7 @@ h1:first-child {
     font-size: 2em;
 }
 
+
 header img{
     display: block;
     margin: auto;
@@ -96,7 +97,7 @@ form label {
     font-weight: bold;
 }
 
-form{
+#contact-form{
     float: left;
     width: 50%;
 }
