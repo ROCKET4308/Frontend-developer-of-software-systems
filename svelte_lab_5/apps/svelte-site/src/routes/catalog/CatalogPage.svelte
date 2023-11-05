@@ -1,0 +1,206 @@
+<script>
+	import SideBar from "../SideBar.svelte";
+
+</script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    main {
+        color: white;
+        background-color: rgb(24, 24, 24);
+        height: 930px;
+        flex: 2;
+        padding: 20px;
+        border-radius: 5px;
+        width: 1635px;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    #search-input {
+        background-color: #9c9c9c; 
+        border: none;
+        border-radius: 10px;
+        width: 84%;
+        padding: 10px;
+
+    }
+
+    #sign-in-button {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 20px;
+        cursor: pointer;
+        width: 200px;
+    }
+
+    #content-section button{
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    #sounds-by-genre button {
+        width: 250px;
+        height: 180px;
+        margin-left: 15px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    #explore-all button {
+        width: 175px;
+        height: 150px;
+        margin-left: 50px;
+        border-radius: 40px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    #sounds-by-genre-button-1{
+        background: linear-gradient(to right, rgb(119, 121, 145), rgb(41, 212, 255));
+    }
+
+    #sounds-by-genre-button-2{
+        background: linear-gradient(to right, rgb(41, 212, 255), rgb(158, 11, 151));
+    }
+
+    #sounds-by-genre-button-3{
+        background: linear-gradient(to right, rgb(158, 11, 151), rgb(0, 10, 121));
+    }
+
+    #sounds-by-genre-button-4{
+        background: linear-gradient(to right, rgb(0, 10, 121), rgb(117, 90, 0));
+    }
+
+    #sounds-by-genre-button-5{
+        background: linear-gradient(to right, rgb(117, 90, 0), rgb(79, 13, 122));
+    }
+
+    #sounds-by-genre-button-6{
+        background: linear-gradient(to right, rgb(79, 13, 122), rgb(121, 213, 255));
+    }
+
+    #sounds-by-genre-button-8{
+        background: linear-gradient(to right, rgb(121, 213, 255), rgb(235, 144, 253));
+    }
+
+    #sounds-by-genre-button-9{
+        background: linear-gradient(to right, rgb(235, 144, 253), rgb(141, 6, 146));
+    }
+
+    #sounds-by-genre-button-10{
+        background: linear-gradient(to right, rgb(141, 6, 146), rgb(158, 158, 158));
+    }
+
+    #sounds-by-genre-button-11{
+        background: linear-gradient(to right, rgb(158, 158, 158), rgb(255, 0, 234));
+    }
+
+    #sounds-by-genre-button-12{
+        background: linear-gradient(to right, rgb(255, 0, 234), rgb(58, 58, 58));
+    }
+
+    #sounds-by-genre-button-13{
+        background: linear-gradient(to right, rgb(58, 58, 58), rgb(255, 166, 0));
+    }
+
+    #sounds-by-genre-button-15{
+        background: linear-gradient(to right, rgb(255, 166, 0), rgb(28, 75, 87));
+    }
+
+    #sounds-by-genre-button-16{
+        background: linear-gradient(to right, rgb(28, 75, 87), rgb(73, 73, 73));
+    }
+
+    #sounds-by-genre-button-17{
+        background: linear-gradient(to right, rgb(73, 73, 73), rgb(170, 74, 74));
+    }
+
+    #sounds-by-genre-button-18{
+        background: linear-gradient(to right, rgb(170, 74, 74), rgb(121, 109, 0));
+    }
+
+    #sounds-by-genre-button-19{
+        background: linear-gradient(to right, rgb(121, 109, 0), rgb(0, 100, 167));
+    }
+
+    #sounds-by-genre-button-20{
+        background: linear-gradient(to right, rgb(0, 100, 167), rgb(174, 0, 255));
+    }
+
+
+    #explore-all-button-1{
+        background-color: rgb(41, 212, 255);
+    }
+
+    #explore-all-button-2{
+        background-color: rgb(255, 0, 234);
+    }
+
+    #explore-all-button-3{
+        background-color: green;
+    }
+    #explore-all-button-4{
+        background-color: gray;
+    }
+</style>
+
+<body>
+    <SideBar/>
+    
+    <main>
+        <input type="text" id="search-input" placeholder="Search">
+        <button id ="sign-in-button"type="submit">Sign in</button>
+        <div id = "content-section">
+            <div id="sounds-by-genre">
+                <h2>Sounds by genre</h2>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-1">Hip-hop</button>
+                    <button type="submit" id="sounds-by-genre-button-2">Electronic</button>
+                    <button type="submit" id="sounds-by-genre-button-3">Pop</button>
+                    <button type="submit" id="sounds-by-genre-button-4">Soul</button>
+                    <button type="submit" id="sounds-by-genre-button-5">Indied</button>
+                    <button type="submit" id="sounds-by-genre-button-6">Dance</button>
+                </p>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-8">Rap</button>
+                    <button type="submit" id="sounds-by-genre-button-9">R and B</button>
+                    <button type="submit" id="sounds-by-genre-button-10">EDM</button>
+                    <button type="submit" id="sounds-by-genre-button-11">Rock</button>
+                    <button type="submit" id="sounds-by-genre-button-12">Alternative</button>
+                    <button type="submit" id="sounds-by-genre-button-13">House</button>
+                </p>
+                <p>
+                    <button type="submit" id="sounds-by-genre-button-15">Country</button>
+                    <button type="submit" id="sounds-by-genre-button-16">Trap</button>
+                    <button type="submit" id="sounds-by-genre-button-17">Latin</button>
+                    <button type="submit" id="sounds-by-genre-button-18">World</button>
+                    <button type="submit" id="sounds-by-genre-button-19">Drum</button>
+                    <button type="submit" id="sounds-by-genre-button-20">Base</button>
+                </p>
+            </div>
+            <div id="explore-all">
+                <h2>Explore all</h2>
+                <p>
+                    <button type="submit" id="explore-all-button-1">Sounds</button>
+                    <button type="submit" id="explore-all-button-2">Playlists</button>
+                    <button type="submit" id="explore-all-button-3">Artists</button>
+                    <button type="submit" id="explore-all-button-4">Collectors</button>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
